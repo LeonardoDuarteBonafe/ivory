@@ -49,64 +49,15 @@ p{
     color: var(--primary-color);
 }
 
-/*
-.whatsapp-fixed {
-position: fixed;
-right: 50px;
-bottom: 50px;
-width: 40px;
-height: 40px;
-z-index: 100;
-cursor: pointer;
-}
-
-.whatsapp-fixed img{
-width: 100%;
-transition: 0.5s;
-}
-
-.whatsapp-fixed:hover img{
-transform: scale(1.35);
-}
-*/
-
 .sumir{
     display: none;
 }
 
 header{
-    /position: fixed;
     z-index: 100;
     width: 100%;
     max-width: 1366px;
-    /border-bottom: 1px solid var(--primary-color);
 }
-
-/*header .language{
-    background-color: #EDEDED;
-    width: 100%;
-    text-align: right;
-    height: 40px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 20%;
-}
-
-header .language a{
-    padding: 0 5px;
-    color: var(--primary-color);
-}
-
-header .language a:nth-child(4){
-    /border-right: 1px solid var(--primary-color);
-}*/
-
-/*.social-icon img{
-width: 25px;
-height: 25px;
-cursor: pointer;
-}*/
 
 header nav .nav-list li a{
     color: white;
@@ -128,19 +79,15 @@ header nav{
     padding: 0 50px 0 70px;
     align-items: center;
     background: white;
-    /background-color: white !Important;
     height: 180px;
     position: relative;
 }
 
 header nav .logo{
-    /background-color: greenyellow;
     width: 100%;
     height: 100%;
     margin: 0 150px 0 0 !important;
     padding: 0 !important;
-    /background-color: aqua;
-    /text-align: right;
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
@@ -159,7 +106,6 @@ header nav .nav-list{
     height: 100%;
     padding: 0px 20px;
     justify-content: center;
-    /background-color: yellow;
     z-index: 5;
     text-align: right;
 }
@@ -176,9 +122,7 @@ header nav .nav-list li{
 }
 
 header nav .nav-list li a{
-    /margin-right: -30px;
     color: black;
-    /background-color: aqua;
     margin-right: 15px;
     padding: 0 10px;
 
@@ -204,17 +148,6 @@ header nav .mobile-menu div{
     transition: 0.3s;
 }
 
-/*
-header nav .fundo{
-position: absolute;
-top: 0;
-right: 0;
-z-index: 3;
-height: 200px;
-width: 350px;
-}
-*/
-
 .vert .carousel-item-next,
 .vert .active.carousel-item-right {
     -webkit-transform: translate3d(0, 100%, 0);
@@ -232,7 +165,6 @@ width: 350px;
     height: 40px !important;
     padding: 0 !important;
     margin: 5px !important;
-    /border-radius: 50%;
     background-color: white !important;
     opacity: 0.4;
     cursor: pointer;
@@ -246,7 +178,6 @@ width: 350px;
 #top-carousel{
     width: 100% !important;
     z-index: 2;
-    /padding-top: var(--offset-navbar);
 }
 
 .carousel-indicators{
@@ -255,17 +186,13 @@ width: 350px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /background-color: aqua;
 }
 
 #top-carousel .carousel-indicators{
-    /bottom: 20% !important;
     bottom: 0 !important;
-    /left: 95%;
     top: 50%;
     left: 96%;
     transform: translate(-50%, -50%);
-    /*ARRUMAR - alinhar no centro*/
 }
 
 .carousel-inner{
@@ -290,93 +217,6 @@ width: 350px;
     object-fit: cover;
     object-position: center;
 }
-
-/*#top-carousel-info .carousel-inner .carousel-item{
-height: 250px;
-overflow: hidden;
-}
-
-#top-carousel-info .carousel-indicators{
-bottom: 30px;
-right: 0;
-left: inherit;
-display: none;
-}
-
-#top-carousel-info .carousel-inner {
-flex-direction: row-reverse;
-margin-top: -50px;
-z-index: 5;
-}
-
-.carousel-inner .carousel-item{
-width: calc(100% - 30px);
-}*/
-
-/*#top-carousel-info .carousel-inner .carousel-item .box{
-display: flex;
-align-items: flex-end;
-height: 100%;
-padding: 0 20px 0 60px;
-}
-
-#top-carousel-info .carousel-inner .carousel-item .box div{
-flex: 1 50%;
-height: 100%;
-margin: 0 20px;
-z-index: 100;
-}
-
-#top-carousel-info .carousel-inner .carousel-item .box div img{
-object-fit: cover;
-object-position: center;
-width: 100%;
-height: 100%;
-}
-
-#top-carousel-info .carousel-inner .carousel-item .box p{
-flex: 3 100%;
-padding-left: 20px;
-font-size: 1.13rem;
-line-height: 20px;
-margin: 0 !Important;
-text-align: justify !important;
-text-transform: uppercase;
-height: calc(100% - 55px);
-display: flex;
-align-items: center;
-}
-
-#top-carousel-info .carousel-inner .carousel-item .box div,
-#top-carousel-info .carousel-inner .carousel-item .box p{
-opacity: 0;
-transition: 0.3s;
-transform: translateY(20px);
-}
-
-#top-carousel-info .carousel-inner .carousel-item.active.carousel-item-left .box,
-#top-carousel-info .carousel-inner .carousel-item.active.carousel-item-right .box{
-opacity: 0;
-transition: 0.2s;
-}
-
-#top-carousel-info .carousel-inner .carousel-item.active .box div:nth-child(1){
-opacity: 1;
-transform: translateY(0);
-transition-delay: 0.2s;
-}
-
-#top-carousel-info .carousel-inner .carousel-item.active .box div:nth-child(2){
-opacity: 1;
-transform: translateY(0);
-transition-delay: 0.35s;
-}
-
-#top-carousel-info .carousel-inner .carousel-item.active .box p{
-opacity: 1;
-transform: translateY(0);
-transition-delay: 0.5s;
-}*/
 
 .title{
     color: var(--primary-color);
@@ -410,7 +250,6 @@ transition-delay: 0.5s;
     left: 0;
     width: 60% !important;
     height: 100% !important;
-    /background-color: aqua;
     opacity: 0.5;
     display: flex;
     align-items: center;
@@ -434,16 +273,12 @@ transition-delay: 0.5s;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /background-color: beige;
-    /opacity: 0.5;
 }
 
 .our-quarry .info h1{
     font-family: canalesDemoRegular;
-    /font-weight: 600;
     font-size: 4em;
     margin: 0;
-    /background-color: blue;
     width: 100%;
     margin-bottom: 100px;
 }
@@ -455,7 +290,6 @@ transition-delay: 0.5s;
     font-size: 1.3em;
     margin: 0;
     color: black;
-    /font-weight: 500;
 }
 
 .our-quarry .folha{
@@ -475,13 +309,12 @@ transition-delay: 0.5s;
     width: 130px;
     text-align: right;
     transform: rotate(-90deg);
-    /background-color: burlywood;
     display: flex;
     align-content: flex-end;
     align-items: flex-end;
     justify-content: flex-end;
     color: transparent;
-    background-image: url(Images/Quarry/ivory2.png);
+    background-image: url(Images/Quarry/ivory2.webp);
     background-position: bottom;
     background-size: contain;
     background-repeat: no-repeat;
@@ -495,7 +328,7 @@ transition-delay: 0.5s;
     transform: translate(-50%, 35%) !important;
     margin: 0;
     color: transparent;
-    background-image: url(Images/Quarry/ivory.png);
+    background-image: url(Images/Quarry/ivory.webp);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -528,15 +361,12 @@ transition-delay: 0.5s;
     position: absolute;
     z-index: 5;
     left: 0;
-    /background-color: aqua;
     top: 50%;
     transform: translate(-25%, -50%) rotate(90deg);
     margin: 0;
     font-size: 7em;
-    /background-color: brown;
-    /height: 70px;
     color: transparent;
-    background-image: url(Images/Product/nome.png);
+    background-image: url(Images/Product/nome.webp);
     background-position: bottom;
     background-size: contain;
     background-repeat: no-repeat;
@@ -544,7 +374,6 @@ transition-delay: 0.5s;
 
 .product .small-image{
     z-index: 2;
-    /background-color: purple;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -553,11 +382,6 @@ transition-delay: 0.5s;
     left: 50px !important;
     width: 550px;
     height: 550px;
-    /*position: absolute;
-    left: 0;
-    top: 0;
-    width: 50%;
-    height: 100%;*/
 }
 
 .product .small-image img{
@@ -569,17 +393,9 @@ transition-delay: 0.5s;
 
 .product .banner{
     z-index: 1;
-    /background-color: greenyellow;
     height: 100% !important;
     width: 650px;
     display: flex;
-    /transform: rotate(-180deg);
-    /cursor: pointer;
-    /*position: absolute;
-    top: 0;
-    right: 0;
-    width: 50%;
-    height: 100%;*/
 }
 .product .banner img{
     width: 100%;
@@ -609,7 +425,6 @@ transition-delay: 0.5s;
 
 .galeria .imagens{
     width: 160px;
-    /background-color: red;
     display: flex;
     flex-direction: column;
     align-content: space-between;
@@ -645,72 +460,7 @@ transition-delay: 0.5s;
     object-fit: cover;
 }
 
-/*.materiais .topbar,
-.materiais .imagens{
-}
-
-.materiais .topbar{
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-
-.materiais .topbar .titulo{
-display: flex;
-/background-color: aqua;
-margin-top: 40px;
-}
-
-.materiais .topbar .titulo h1,
-.materiais .topbar .titulo h2
-{
-margin: 0;
-display: flex;
-align-items: flex-end;
-}
-
-.materiais .topbar .titulo h1{
-color: transparent;
-background-image: url(Images/Materiais/nome.png);
-background-size: contain;
-background-repeat: no-repeat;
-font-size: 4em;
-/background-color: purple;
-background-position: bottom;
-}
-
-.materiais .topbar .titulo h2{
-font-family: canalesDemoRegular;
-
-/background-color: yellow;
-}
-
-.materiais .topbar .menu{
-display: flex;
-font-family: barlowSemiCondensedThin;
-font-size: 2em;
-/font-weight: 1000;
-color: var(--primary-color);
-margin: 20px 0;
-z-index: 1;
-}
-
-.materiais .topbar .menu p{
-cursor: pointer;
-/background-color: aqua;
-}
-
-.materiais .topbar .menu p{
-margin: 0 15px;
-}
-
-.materiais .topbar .menu .active-material{
-/font-weight: 1000;
-font-family: barlowSemiBold;
-}*/
-
 .materiais .titulo{
-    /background-color: aqua;
     width: 40%;
     margin: 50px;
 }
@@ -732,24 +482,7 @@ font-family: barlowSemiBold;
     align-content: space-between;
     justify-content: space-between;
     margin-right: 20px;
-    /margin-bottom: 30px;
 }
-
-/*
-.materiais .imagens .big img{
-transform: translateX(50px);
-opacity: 0;
-transition: 0.5s;
-}
-*/
-
-/*
-.materiais .imagens .small img{
-transition: 0.5s;
-opacity: 0;
-transform: translateX(-50px);
-}
-*/
 
 .materiais .imagens .big img.active-image{
     animation: openBigImage 0.5s forwards;
@@ -780,14 +513,6 @@ transform: translateX(-50px);
         transform: translateX(0px);
     }
 }
-
-/*.materiais .folha{
-position: absolute;
-bottom: 0;
-left: 0;
-width: 250px;
-height: auto;
-}*/
 
 footer{
     display: flex !important;
@@ -836,25 +561,9 @@ footer .empresa{
         background-color: white !important;
     }
 
-    /*header nav .fundo{
-    display: none;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 3;
-    height: 80px;
-    width: 140px;
-    z-index: 1;
-}*/
-
     .title{
         height: 100px;
     }
-
-    /* header .language{
-    height: 30px;
-    padding-right: 10%;
-}*/
 
     header nav{
         padding: 0 10px 0 15px;
@@ -886,13 +595,11 @@ footer .empresa{
         justify-content: space-around;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
-        /border: 1px solid var(--primary-color);
     }
 
     header nav .nav-list li{
         margin-left: 0;
         opacity: 0;
-        /border: none;
         border-right: none;
         margin-right: 0;
     }
@@ -958,10 +665,6 @@ footer .empresa{
         margin-right: 30px !important;
     }
 
-    #top-carousel{
-        /padding-top: var(--offset-navbar-mobile);
-    }
-
     .carousel-indicators{
         width: 30px;
         height: 100%;
@@ -974,49 +677,20 @@ footer .empresa{
         height: 300px !important;
     }
 
-    /*.our-quarry{
-    position: relative;
-    width: 100%;
-}*/
-
     .our-quarry img{
-        /width: 100%;
         height: 400px;
-        /object-fit: cover !important;
         object-position: left;
     }
-
-    /*.our-quarry .bloco{
-    display: none !important;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 60% !important;
-    height: 100% !important;
-    /background-color: aqua;
-    opacity: 0.5;
-    display: flex;
-    align-items: center;
-    opacity: 0 !important;
-}*/
-
-    /*.our-quarry .bloco img{
-    width: 80%;
-    margin: 0 auto;
-    height: auto;
-}*/
 
     .our-quarry .info{
         width: 100%;
         padding: 0 !important;
         background-color: rgba(255,255,255,0.6);
-        /opacity: 0.5;
     }
 
     .our-quarry .info h1{
         font-size: 2em;
         text-align: center;
-        /background-color: blue;
         width: 100%;
         margin-bottom: 15px;
     }
@@ -1044,58 +718,26 @@ footer .empresa{
 
     .product{
         height: 300px !important;
-        /margin-bottom: 200px;
-        /margin: 30px 0;
     }
 
-    /*.product .fundo{
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}*/
-
-    .product .center-left-text{/*
-        position: absolute;
-        z-index: 5;
-        left: 0;
-        top: 50%;
-        transform: translate(-38%, -50%) rotate(90deg);*/
-        /margin: 0;
+    .product .center-left-text{
         font-size: 2em;
-        /background-color: brown;
-        /height: 70px;
         color: transparent;
-        background-image: url(Images/Product/nome.png);
+        background-image: url(Images/Product/nome.webp);
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
     }
 
     .product .small-image{
-        /z-index: 2;
-        /background-color: purple;
         display: flex;
-        /flex-wrap: wrap;
         align-items: center;
-        /justify-content: center;
         position: absolute;
-        /*left: 40px !important;
-        height: 150px;*/
         height: 80%;
         width: 240px !important;
         left: 50% !important;
         top: 50% !important;
         transform: translate(-50%, -50%);
-        /*position: absolute;
-        left: 0;
-        top: 0;
-        width: 50%;
-        height: 100%;*/
     }
 
     .product .small-image img{
@@ -1106,12 +748,9 @@ footer .empresa{
 
     .product .banner{
         z-index: 1;
-        /background-color: greenyellow;
         height: 100% !important;
         width: auto !important;
         display: flex;
-        /transform: rotate(-180deg);
-        /cursor: pointer;
         position: absolute;
         top: 0;
         right: 0;
@@ -1135,74 +774,6 @@ footer .empresa{
         margin-bottom: 10px;
     }
 
-    /*.materiais{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-}*/
-
-    /*.materiais .fundo{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}*/
-
-    /*.materiais .topbar,
-    .materiais .imagens{
-}
-
-    .materiais .topbar{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-    */
-    /*.materiais{
-    height: auto !important;
-    /background-color: aqua;
-}
-
-    .materiais .topbar .titulo{
-    /background-color: aqua;
-    margin-top: 20px;
-}
-    */
-    /*.materiais .topbar .titulo h1,
-    .materiais .topbar .titulo h2
-    {
-    margin: 0;
-    display: flex;
-    align-items: flex-end;
-}
-    */
-    /*.materiais .topbar .titulo h1{
-    font-size: 2em;
-}
-
-    .materiais .topbar .titulo h2{
-    font-size: 1.5em;
-}
-
-    .materiais .topbar .menu{
-    justify-content: center;
-    flex-wrap: wrap;
-    font-size: 1.2em;
-    margin: 10px 0;
-}
-
-    .materiais .topbar .menu p{
-    text-align: center;
-    padding: 5px 10px;
-}
-
-    .materiais .topbar .menu p{
-    margin: 0 10px;
-}*/
-
     .materiais .imagens{
         display: flex;
         flex-direction: column-reverse;
@@ -1221,11 +792,8 @@ footer .empresa{
     .materiais .imagens .small{
         display: flex;
         flex-direction: row;
-        /align-items: center;
-        /align-content: space-between !important;
         justify-content: center;
         margin: 10px 0 !important;
-        /background-color: aqua;
     }
 
     .materiais .imagens .small img{
@@ -1298,20 +866,7 @@ footer .empresa{
 
     .product{
         height: 300px !important;
-        /margin-bottom: 200px;
-        /margin: 30px 0;
     }
-
-    /*.product .fundo{
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}*/
 
     .product .center-left-text{
         position: absolute;
@@ -1319,37 +874,18 @@ footer .empresa{
         left: 0;
         top: 50%;
         transform: translate(-35%, -50%) rotate(90deg);
-        /margin: 0;
         font-size: 2em;
-        /background-color: brown;
-        /height: 70px;
-        /*color: transparent;
-        background-image: url(Images/Product/nome.png);
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;*/
     }
 
     .product .small-image{
-        /z-index: 2;
-        /background-color: purple;
         display: flex;
-        /flex-wrap: wrap;
         align-items: center;
-        /justify-content: center;
         position: absolute;
-        /*left: 40px !important;
-        height: 150px;*/
         height: 80%;
         width: 240px !important;
         left: 50% !important;
         top: 50% !important;
         transform: translate(-50%, -50%);
-        /*position: absolute;
-        left: 0;
-        top: 0;
-        width: 50%;
-        height: 100%;*/
     }
 
     .product .small-image img{
@@ -1360,12 +896,9 @@ footer .empresa{
 
     .product .banner{
         z-index: 1;
-        /background-color: greenyellow;
         height: 100% !important;
         width: auto !important;
         display: flex;
-        /transform: rotate(-180deg);
-        /cursor: pointer;
         position: absolute;
         top: 0;
         right: 0;
@@ -1389,50 +922,14 @@ footer .empresa{
         margin-bottom: 10px;
     }
 
-    /*.materiais{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-}*/
-
-    /*.materiais .fundo{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}*/
-
-    /*.materiais .topbar,
-    .materiais .imagens{
-}
-
-    .materiais .topbar{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-    */
     .materiais{
         height: auto !important;
-        /background-color: aqua;
     }
 
     .materiais .topbar .titulo{
-        /background-color: aqua;
         margin-top: 20px;
     }
 
-    /*.materiais .topbar .titulo h1,
-    .materiais .topbar .titulo h2
-    {
-    margin: 0;
-    display: flex;
-    align-items: flex-end;
-}
-    */
     .materiais .topbar .titulo h1{
         font-size: 2em;
     }
@@ -1524,46 +1021,18 @@ footer .empresa{
         height: 550px !important;
     }
 
-    /*.our-quarry{
-    position: relative;
-    width: 100%;
-}*/
-
     .our-quarry img{
         height: 500px;
     }
 
-    /*.our-quarry .bloco{
-    display: none !important;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 60% !important;
-    height: 100% !important;
-    /background-color: aqua;
-    opacity: 0.5;
-    display: flex;
-    align-items: center;
-    opacity: 0 !important;
-}*/
-
-    /*.our-quarry .bloco img{
-    width: 80%;
-    margin: 0 auto;
-    height: auto;
-}*/
-
     .our-quarry .info{
         width: 40%;
         padding: 0 !important;
-        /background-color: rgba(255,255,255,0.6);
-        /opacity: 0.5;
     }
 
     .our-quarry .info h1{
         font-size: 2.5em;
         text-align: center;
-        /background-color: blue;
         margin-bottom: 30px;
     }
 
@@ -1573,7 +1042,6 @@ footer .empresa{
     }
 
     .our-quarry .folha{
-        /display: block;
         width: 100px;
     }
 
@@ -1591,58 +1059,22 @@ footer .empresa{
 
     .product{
         height: 450px !important;
-        /margin-bottom: 200px;
-        /margin: 30px 0;
     }
 
-    /*.product .fundo{
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}*/
-
-    .product .center-left-text{/*
-        position: absolute;
-        z-index: 5;
-        left: 0;
-        top: 50%;*/
+    .product .center-left-text{
         transform: translate(-25%, -50%) rotate(90deg);
-        /margin: 0;
         font-size: 4.5em;
-        /background-color: brown;
-        /height: 70px;
-        /*color: transparent;
-        background-image: url(Images/Product/nome.png);
-        background-position: center;
-        background-size: contain;
-        background-repeat: no-repeat;*/
     }
 
     .product .small-image{
-        /z-index: 2;
-        /background-color: purple;
         display: flex;
-        /flex-wrap: wrap;
         align-items: center;
-        /justify-content: center;
         position: absolute;
-        /*left: 40px !important;
-        height: 150px;*/
         height: 80%;
         width: 340px !important;
         left: 30% !important;
         top: 50% !important;
         transform: translate(-50%, -50%);
-        /*position: absolute;
-        left: 0;
-        top: 0;
-        width: 50%;
-        height: 100%;*/
     }
 
     .product .small-image img{
@@ -1657,8 +1089,6 @@ footer .empresa{
         height: 90% !important;
         width: auto !important;
         display: flex;
-        /transform: rotate(-180deg);
-        /cursor: pointer;
         position: absolute;
         right: 0;
         width: 55% !important;
@@ -1681,81 +1111,10 @@ footer .empresa{
         margin-bottom: 10px;
     }
 
-    /*.materiais{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-}*/
-
-    /*.materiais .fundo{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}*/
-
-    /*.materiais .topbar,
-    .materiais .imagens{
-}
-
-    .materiais .topbar{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-    */
-    /*.materiais{
-        height: auto !important;
-        /background-color: aqua;
-    }
-
-    .materiais .topbar .titulo{
-        /background-color: aqua;
-        margin-top: 20px;
-    }*/
-
-    /*.materiais .topbar .titulo h1,
-    .materiais .topbar .titulo h2
-    {
-    margin: 0;
-    display: flex;
-    align-items: flex-end;
-}
-    */
-    /*.materiais .topbar .titulo h1{
-        font-size: 2.5em;
-    }
-
-    .materiais .topbar .titulo h2{
-        font-size: 2em;
-    }
-
-    .materiais .topbar .menu{
-        font-size: 1.5em;
-    }
-
-    .materiais .topbar .menu p{
-        text-align: center;
-        padding: 5px 8px;
-    }
-*/
-    /*.materiais .imagens{
-    display: flex;
-    flex-direction: column-reverse;
-    margin-bottom: 0;
-}
-    */
-    /*.materiais .imagens img{
-    width: 100%;
-}*/
-
     .materiais .imagens{
         height: 350px;
     }
-    
+
     .materiais .imagens .small{
         display: flex;
         flex-direction: column;
@@ -1768,7 +1127,7 @@ footer .empresa{
         width: 170px;
         margin: 5px 5px;
     }
-    
+
     .materiais .imagens .big{
         width: 100%;
         height: 100% !important;
@@ -1780,11 +1139,6 @@ footer .empresa{
         object-fit: cover;
         object-position: center;
     }
-    
-
-    /*.materiais .folha{
-        width: 180px;
-    }*/
 
     footer{
         display: flex;
@@ -1806,19 +1160,16 @@ footer .empresa{
 @media only screen and (min-width: 991px) and (max-width: 1200px){
 
     header nav .logo{
-    /background-color: greenyellow;
-    width: 100%;
-    height: 100%;
-    margin: 0 50px 0 0 !important;
-    padding: 0 !important;
-    /background-color: aqua;
-    /text-align: right;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-}
+        width: 100%;
+        height: 100%;
+        margin: 0 50px 0 0 !important;
+        padding: 0 !important;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
 
-header nav .logo a img{
-    width: 550px !important;
-}
+    header nav .logo a img{
+        width: 550px !important;
+    }
 }
